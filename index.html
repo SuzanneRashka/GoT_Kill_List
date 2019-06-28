@@ -1,48 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--<![endif]-->
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Game of Thrones kill list.">
-    <title>Game of Thrones Kill List</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Meta Tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO -->
+    <meta name="description" content="Game of Thrones Season 8 Countdown. Game of Thrones kill list.">
+
+
+    <title>GoT S8 Countdown</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="images/favicon/apple-touch-icon.png">
+
+    <!-- All CSS Plugins -->
+    <link rel="stylesheet" type="text/css" href="app/css/plugin.css">
+
+    <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="app/css/styles.css">
-    <!-- font -->
+
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="app/css/custom.css" />
+
+    <!-- Google Web Fonts  -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-    <div class="home-section-background" data-stellar-background-ratio="1">
-        <div class="display-table">
-            <div class="display-table-cell">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <div class="header-text">
-                                <!-- <h2>Season 8 Countdown!</h2> -->
-                                <h2><span style="color:#fac832">"If you think this has a happy ending, you haven't
-                                        been paying attention."</span></h2>
-                                <h3 style="color:#b2b2b2">~ Ramsey Bolton</h3>
-                                <h2 style="color:#b2b2b2" class="lower-header-text">Currently undergoing redesign for a
-                                    new database.
-                                </h2>
+    <!-- Home & Menu Section Start -->
+    <header id="home" class="home-section">
+
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-3">
+                        <div class="logo">
+                            <img src="app/images/bg/logo2.png">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-9">
+                        <div class="navigation-menu">
+                            <div class="navbar">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                        data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a class="smoth-scroll" href="#home">Home <div
+                                                    class="ripple-wrapper"></div></a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="#about">About</a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="#quote">Quotes</a>
+                                        </li>
+                                        <li><a class="smoth-scroll" href="#portfolio">Kill List</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="" async defer></script>
+
+        <div class="home-section-background" data-stellar-background-ratio="1">
+            <div class="display-table">
+                <div class="display-table-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="header-text">
+                                    <!-- <h2>Season 8 Countdown!</h2> -->
+                                    <h2><span style="color:#fac832">"If you think this has a happy ending, you haven't
+                                            been paying attention."</span></h2>
+                                    <h3 style="color:#b2b2b2">~ Ramsey Bolton</h3>
+                                    <div class="margin-top-40">
+                                        <div class="topspacing container">
+                                            <div class="callbacks_container">
+                                                <!-- <div id="timer">
+                                                    <span id="days"></span>days
+                                                    <span id="hours"></span>hours
+                                                    <span id="minutes"></span>minutes
+                                                    <span id="seconds"></span>seconds
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- Home & Menu Section End-->
+
+    <!-- <section id="about" class="about-section">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <img class="img-responsive" src="images/bg/Dany1.jpg" draggable="false" alt="Dany">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="about-me section-space-padding">
+                    <h2>A big shout out to the cast and crew that made this series so amazing and had us all at the end
+                        of our seats every Sunday night. <span></span>
+                        <span style="color: #ff7f7f;">&#x02764;</span>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Start -->
+    <!-- <section id="about" class="about-section" style="background-color:#ff7f7f">
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <img class="img-responsive" src="images/bg/Dany1.jpg" draggable="false" alt="Dany">
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="about-me section-space-padding">
+                    <h2>A big shout out to the cast and crew that made this series so amazing and had us all at the end
+                        of our seats every Sunday night. <span></span>
+                        <span style="color: #ff7f7f;">&#x02764;</span>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- About End -->
+
+
+    <!-- Quotes Start -->
+    <section id="quote" class="quote-section section-space-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Quotes</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="quote-carousel-list margin-top-20">
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/season1/hound.jpg" class="img-responsive" alt="">
+                        <h2>The Hound</h2>
+                        <p><em>"You're shit at dying, you know that?"</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/olenna.jpg" class="img-responsive" alt="">
+                        <h2>Olenna Tyrell</h2>
+                        <p><em>"I wonder if you're the worst person I've ever met."</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="http://assets.viewers-guide.hbo.com/large5536cfd8d61fb.jpg" class="img-responsive"
+                            alt="">
+                        <h2>Ramsay Bolton</h2>
+                        <p><em>"My mother taught me not to throw stones at cripples... but my father taught me: aim for
+                                their head!"</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/season1/sansa.jpg" class="img-responsive" alt="">
+                        <h2>Sansa Stark</h2>
+                        <p><em>"You're going to die tomorrow, Lord Bolton. Sleep well."</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/season1/tyrion.jpg" class="img-responsive" alt="">
+                        <h2>Tyrion Lannister</h2>
+                        <p><em>"It's not easy being drunk all the time. Everyone would do it if it were easy."</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/tormond.jpg" class="img-responsive" alt="">
+                        <h2>Tormund Giantsbane</h2>
+                        <p><em>"Happy shitting!"</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/season1/petyr.jpeg" class="img-responsive" alt="">
+                        <h2>Petyr Baelish</h2>
+                        <p><em>"Tell me... does someone somewhere keep your balls in a little box? I've often
+                                wondered."</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/season1/tyrion.jpg" class="img-responsive" alt="">
+                        <h2>Tyrion Lannister</h2>
+                        <p><em>"You love your children. It's your one redeeming quality. That, and your
+                                cheekbones."</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/season1/bran.jpg" class="img-responsive" alt="">
+                        <h2>Brandon Stark</h2>
+                        <p><em>"Hush, Hodor. No more Hodor-ing!"</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/season3/bronn.jpg" class="img-responsive" alt="">
+                        <h2>Bronn</h2>
+                        <p><em>"There's no cure for being a cunt."</em></p>
+                    </div>
+
+                    <div class="quote-word text-center">
+                        <img src="app/images/characters/season1/tyrion.jpg" class="img-responsive" alt="">
+                        <h2>Tyrion Lannister</h2>
+                        <p><em>"Drinking and lust, no man can match me in these things. I am the god of tits and
+                                wine."</em></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quotes End -->
+
+    <!-- Death Toll -->
+    <section id="portfolio" class="portfolio section-space-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2><span class="color1">Death</span> Toll</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12 sort">
+            <p>I lost the desire to put this together after what D&D did to Season 8. We all know Daenery's got the most
+                kills at the end, followed by Cersei when she blew up the sept. I am formulating a plan to put something
+                together that honors the cast and crew and the magnificent job they did.
+            </p>
+        </div>
+
+        <div id="filters" class="center">
+            <select id="sortKillers">
+                <option value="*">Killer</option>
+                <option value=".WW">White Walkers</option>
+                <option value=".ES">Eddard Stark</option>
+                <!-- <option value=".CL">Cercei Lannister</option> -->
+                <option value=".SUM">Summer</option>
+                <option value=".TH">The Hound</option>
+                <!-- <option value=".GC">The Mountain</option> -->
+                <option value=".JB">Joffery Baratheon</option>
+                <option value=".JL">Jaime Lannister</option>
+                <option value=".LA">Lysia Arryn</option>
+                <!-- <option value=".KD">Khal Drogo</option> -->
+                <!-- <option value=".Mago">Mago</option> -->
+                <!-- <option value=".BR">Bronn</option> -->
+                <!-- <option value=".JM">Johar Mormont</option> -->
+                <!-- <option value=".DT">Daenerys Targaryen</option> -->
+                <!-- <option value=".RW">Melisandre</option> -->
+                <!-- <option value=".POL">Polliver</option> -->
+                <!-- <option value=".UK">Unknown</option> -->
+                <!-- <option value=".AS">Arya Stark</option> -->
+                <!-- <option value=".TG">Theon Greyjoy</option> -->
+                <!-- <option value=""></option> -->
+            </select>
+            <select id="selectStatus">
+                <option value="*">Status</option>
+                <option value=".dead">Dead</option>
+                <option value=".alive">Alive</option>
+            </select>
+            <select id="selectSeason">
+                <option value="*">Season</option>
+                <option value=".one">Season 1</option>
+                <!-- <option value=".two">Season 2</option> -->
+                <!-- <option value=".three">Season 3</option>
+            <option value=".four">Season 4</option>
+            <option value=".five">Season 5</option>
+            <option value=".six">Season 6</option>
+            <option value=".seven">Season 7</option> -->
+            </select>
+        </div>
+
+        <div id="container">
+            <!-- Season 1 -->
+            <!-- Will -->
+            <div class="item tint dead ES one">
+                <img src="https://lh3.googleusercontent.com/kfgCPxTtXhoV0cHDiYdnfheAQ-LlBQwBEQ-bAdX3rgExIWEq3Yim7na2lhtvEyRBn4Z18qWO1dJTLBAIuWkZ-lZAvIz0oD0qb0-Yyw4WF4NBbe0cn395lHzJt8AZmfAMoMNxhH4SyQJZ5hacd9IfKGSFDVlv2BQboUsKyxxgxbSOKaOHUW-oGSd-tKC9VKYtLavCH22287-qIsAmqy0vpZCYyDKcs_LXbbGFmePYNV_mDWNIgKpGQtiX2KkPDlKfEqcXRdCxqq5Zm7G3PVh5gqOZKfzedk-LUYg-Ard8aTjivVSX_LRGElC-vLSsenMgkH7av-Yf09nPphJipI30bykV5S3gs3j-ER928C2EY-0rHMJlixKJc_TTEoCSNUmKsL50LH5vg0-ND64oUp_gV5DrL-B46lBkwpp5nXenqpUh4UShHOzP9S9Q_WeVsQ2j8sCmIkU7b7wVerRviVHAHvOkTpyJ-cqSZI-x0LJ33pf3QbIKQ_EcXbSzB6ulROCQ2S7hTGaTmZpwOtQcGaS4b0fOgZfw6KNleKYD2Z2qRr6ScNh6Ej0ozLrMRmZojtDM_FYTzEecXg-Mhd-xiPJonzptjPbCFRv3rhp5jvl0y9Hu4KvslW6b=s341-no"
+                    alt="Will" />
+                <!-- <div class="middle">
+                    <div class="sm-text">Will</div>
+                </div> -->
+            </div>
+            <!-- Waymar Rayce -->
+            <div class="item tint dead WW one">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-royce-waymar-800x800@2x.jpg"
+                    alt="Waymar Rayce" />
+            </div>
+            <!-- Gared -->
+            <div class="item tint dead WW one">
+                <img src="https://lh3.googleusercontent.com/6cjk7apSaVf9AMcLImFhcn186HVxd0fd4urtci3_BUOftOrRPQWkZR93IYOFcMByMrHgeSIg-Td2bc4-0TUhMLGj5CO-Q4gFNcYLtqnmby5SOZW9Ro2KcRMsIh37AlUcyE1jAvPdsAnJyLmTUQNiMf1CtmJo3XgC2kTUMbjhy2K0eCudkKdHBDaqCNdVLoaWlqJx4FbE9bPC13KXOC2KL57vXyTYJmN9T8VnMxWZbTBubWy2p-kodYT_oE_CVREThTxnrxEPcv5ujCg-wiXzUgm5ssUz4eOBQwv4GaS84gSHVaWq2Nnz_0HRTUdryFjCQ8FtPp9iBwItz-79AzDZdJ7MnXz5DZos1O6Fb4VNuFb9sqeBTB8iODo_3GNPoXJJHYyb4aIO8v6GTkFfcFgpBXJfojHeL2GQL16POD6PrwpphaRvDybKy4fUXQvg2_bvGJ_H6Qb3fCWwp8Pjr9XZuAsxVVVY3bHa_9Gy4bbW5chmLLNmHUquiJa5X1IKPVcl8_iZn8UdB8KNoSZZktEzRTuIF_8sgxUiQ_vAh2-ikFmQ2jMaC5CWV2xBLbxnp7GpvESV-i30bytlHwuW-klyaNSnGfJLSViZykhF_dbZXfG1IGLd=s789-no"
+                    alt="Gared" />
+            </div>
+            <!-- Bran Stark -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-stark-bran-800x800@2x.jpg"
+                    alt="Bran Stark" />
+            </div>
+            <!-- Jon Snow -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-snow-jon-800x800@2x.jpg"
+                    alt="Jon Snow" />
+            </div>
+            <!-- Rob Stark -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-stark-robb-800x800@2x.jpg"
+                    alt="Robb Stark" />
+            </div>
+            <!-- Eddard Stark -->
+            <div class="item dead tint JB one">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-stark-eddard-800x800@2x.jpg"
+                    alt="Eddard Stark" />
+            </div>
+            <!-- Catylin Stark -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-stark-tully-catelyn-800x800@2x.jpg"
+                    alt="Catylin Stark" />
+            </div>
+            <!-- Sansa Stark -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-stark-sansa-800x800@2x.jpg"
+                    alt="Sansa Stark" />
+            </div>
+            <!-- Septa Mordane -->
+            <div class="item dead tint JB one">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-mordane-septa-800x800.jpg"
+                    alt="Septa Mordane" />
+            </div>
+            <!-- Arya Stark -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-stark-arya-800x800@2x.jpg"
+                    alt="Arya Stark" />
+            </div>
+            <!-- Rickon Stark -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-stark-rickon-800x800@2x.jpg"
+                    alt="Rickon Stark" />
+            </div>
+            <!-- Rodrik Cassel -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-cassel-rodrik-800x800.jpg"
+                    alt="Rodrik Cassel" />
+            </div>
+            <!-- Jory Cassel -->
+            <div class="item tint dead JL one">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-cassel-jory-800x800@2x.jpg"
+                    alt="Jory Cassel" />
+            </div>
+            <!-- Theon Greyjoy -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-greyjoy-theon-800x800.jpg"
+                    alt="Theon Greyjoy" />
+            </div>
+            <!-- Lady -->
+            <div class="item tint dead ES one">
+                <img src="https://lh3.googleusercontent.com/q4GEd2grenvT_94NHNwPV3eOoC2sj9ONJbKgaK9s497CsPLZmQ8viumocQ_OUds28thgw4qkq_J8RjlpsEQpHnrHEnbBsymMBnz3hl_HhWvFyvyM86_E4eNhfa3pwzmUAMYP1ysM5QxwP8-y90dNqslUoEL9tHJQ5VshAzlj77ykv65RCGZ2Ctk6hnV3OYV2TIEZN26pGg6gbFPo5Nmd3clZAwhE4XptxhoI2JOMlgxWCx-ptUh-oezUFLdcyVrWFj2e0VbHugmHvRxnZS_RYGrpzF_Ft820_O3RCd-Vlt47k5htnQkd1uyBX65ZLqTNPCQKrez-j_2YHoRvc16TuBu5oxLKuSU1ZA2jXvuIG_wjmaBwaDjI24fDLD46EYkDgmmkoXREpFvxskTO7sy0FHMO6dta8b1j8X-TvH6MBDWXuIisD8pAVK3QznUTXWm4CEHEcGywlb9BQUYB7X-ZoKhaPqo3QlwXouIZNR1jTw3rX_v4eIgmyuXm6YMfgZHhh6SVo9cTy9UElFvSXpyKF1SIZyyjiHv73ToJvn3h0iz0PbakPIx49Y7noh4xbNSJEnxg7p180nvey6OtGjg8p4ghrQfpMClwMRy8ncWNvf7mpP7qbpEp=s269-no"
+                    alt="Lady" />
+            </div>
+            <!--  Summer-->
+            <div class="item alive">
+                <img src="https://lh3.googleusercontent.com/SkCe2s8YHqfyxzd7JHFkC_X01mD2p1fJCOZo2nalavaAVajHQNXsM6eUz03uaytsT5n4O1eKyoT_-1LM0qv0rS4_NlwVjLg8wSPR5S_a-G38Qa8XfKkfcC5nN0X3a6K5ku6U8oeZWkZofUpAIJHelVFIrOlMMX623kxeTCXZkSvEDeEunj_MNmg-2eBsnvnLdgMAf2lhBoCe43Fn4GaKXa2gXdJLDHtZXVZ4rqKP95Qht4o6fzD0bWux1MOy3H0cR5mvth2XeznKTtNJWqXFXY1sgx4A0W2EBSMvRugEEPiwt6IkD85CQffMt0Rg08w3Eh0TSYe9zU6tz1bo500MCEKqcyz2CwBzkEpEHnysK3t3gcVqcA-VcS5We4PWE0vNdYSad8K062221K3NoX6JbYrciZDPEUh33xPpYADo1zstyqoH-3vtNnGj619-KrmAr_P33TKbbAur5WvECJC1rXDCnnyvcKT_7gemfsWIc6X6BV6SfKs5nXZB5ezAw9_KWyy3_YPuz_h9ZEv7-AzQHAlC7aZ-qGMTEXDFw1d25cU6tsx4yyrgR7SPDO-x-3rSCyK_jsXzAy_GEx5hT9xPBZRbGUeAC0ZZHfJUPQk6vLHNR6secodg=s500-no"
+                    alt="Summer" />
+            </div>
+            <!-- Shaggy Dog -->
+            <div class="item alive">
+                <img src="https://lh3.googleusercontent.com/dO_EpZ5lXGj1SnDwUW27TOljwDTyfiNssHOBWcH3GzHFXhbKwKKC-nobudEpaxQRq7UCu3eD-WI5szuXFOFLEbs0BCWGtgdsG_UvO_XA-a9ASrH5qiPffRWdy9Bp0CWNXPgWkDKyFXj1czpTtCYVRgj9AajAKlz00nSyVxwGrTbwMVwaMYj1IwgEMkMpKkiTAlf46cBJWZdaSYY9wC14n3BaAN7W4JFjUazcU-eCChF7f761CX-4D2YTo5s7-uyLVELkwCD54HAQm6jvvae6J4zH1HsCA35n1FkHBph139Bh2ZWn8bmYBQ-i8Nl_43knrDX5ivkRoP2UunA-E_sW9_Pf_vgZGzu6QnfyrUi3-HfXcHqhXLWc9N_iN9XcUEeHs0hc2bP63FeWDKlbc3sNeoL1dxXwRK3EyPI32Y4rQdQ_UDhGi8EQyKdk0w6HWYa0Pz9285tHwFDKu9Bo8CqCVCY139N-ocRN229u8EDa_wiowij6gGUWWxVD8NU-RBYLy8rlZhRDGDSG6C9YAg1OTc8Pd2wegGaNz-E9-3cQ2292SDG_lR26T4Hdl_LxeqqhfyqxPDDqEFBgqCGvI8ptlpu6D9GTWT9KnpNBaSrqcr95ooMj4Fqg=w280-h281-no"
+                    alt="Shaggy Dog" />
+            </div>
+            <!-- Nymeria -->
+            <div class="item alive">
+                <img src="https://lh3.googleusercontent.com/cWcxw2wU6hUwfwtKYQDfgAhPtHDTfGHMbr02rFxtLwd69AE74RilcagFGdjlif94gs72fdnpeflMJYVVYBs6FO3qdyNBVb1YtzNXtjAJwOCKpaz3RkB_Fi9BGkrNBGkGly3kzMzemRsmGXtWC9mpVgSiEieNA7OeMud9NdonBIKGbbhIxUbj7NXNhPQGG-hdl9eToYjH2qHqC0lhQbCO8nwSFjFEgjoC75JyX9h7q6fvTkUSUB-uimN-mXHKZ49JGHikFoufBA5dMjBf2NknpIxgoshjtxUdcsLByh5tYVuFEH46ef2MqqGlsNjXaOxEBbHsSCGtlL4ZYH-09evLwQOJLFD-yYa844f-JAApHOvxgTT8JmUjH0u5GZ_iJaT0Z1eehKd0zTK2GfRk5-bckZqaUKyqyaKS0CXyuowmZrGQooxziLRWRR1K6PTWc-v59J1wJ9HXERFMF72g_uPKCFaFa97n-MZnq-ctKWaNixWoj7c1z8mb69ECL7S0kPgrOKoRV89CeatbOldVfRtL4R5ZMxahFokCo_ThKsjhsa58AUV-rEQg6TDTgBYF88VVfNZMp6u5Z9e9myHWFHJYaAxIhqdLz_C8mJSJJul4JCg4YtlKd0u9=s352-no"
+                    alt="Nymeria" />
+            </div>
+            <!-- Grey Wind -->
+            <div class="item alive">
+                <img src="https://lh3.googleusercontent.com/DdL1imGqU_NU3_pjTAbpQ7BBqAAe83AQ2usmKwHI-F7aUNkhsHn1S0nF1dYwiBTj7GUj-7Y6IlwA0qGJpUhO14rGTY6tM-rOymCyBUUxIcz25QBAdYQHG1XPcZYoIVEuWZEVoG2hF2Mepp1kmp3f1UiBL4z8oS1PL5GJ_hZZWpM-B8QI4FIx3BVr0k7mfvzuAemEDizcIaSr7NjjiT4_uI_n-0JOvLwY6AdZIEwkXAKMrdUOt04_UShbi5kk9HYjmI-uOt-DKPfBPErk3K7TvpG1n-lQ5sG62UtcJpp61NU2RtyOt7qW9sLK3UN3qsroNlnH8dIU4z9OsYiLYBtGqo_8tiVZIWhSIDtVQE5oT0rdgf6X3iUP3ZXhjtEqMRqZtZg43EvUNeyAnMQw5-CvusJo11EI-HAr71UF2HqU2qz8jSnRSjOhUEW2jMYt7PWynAPqUIOanjbIZXQaBYQ_EXSsuKo3t9ZZYKkSkJsOHyFbW9KP1dXMxLXXBSCrbFvbxmLmV73uEtksShdNM7uRL0HWRsOAbq8k1P3z_aY4yi7BjFb-4FxMt6ceZ28VB7vLFvurokGgqDpmHv9lRbmNgvJSB4rfgBIysXzY8soX1nXfVeqc5-pS=s438-no"
+                    alt="Grey Wind" />
+            </div>
+            <!-- Ghost -->
+            <div class="item alive">
+                <img src="https://lh3.googleusercontent.com/O0EqiIkwso92_ecvTn3wp9SoAOR_6Hn--nTjAYgzPkkVC3AjQIy2cP0TDReYucvvwXYIpj0vPzEf3jEQsaIwnJqMzB9r3vT1cAnQJWDADnnTnBYIf4gkhGT1riP2MoOq9gYpmS2l3Hdh35mQqmHA95iZeLiZUBTaT5kjXPjPBn1np0iOzrDarXnnIg2aRIrnAzd6JnMu5Mq3MifARM_LUWzuKxc1inkQrhrDp70dhFFreIjRYtl8a2SCqqaqxjr_jqS75wV0Jtgz18n60BKqMwAPK0Ruajb-sRn8U_e5McAT460VF2ibihwUgnv6r1wF4pRfuzVeuHakDuEkiDiY5zVcRmv9RYHNp-g-MbCjwClny_KTB_Bv2dWz1txotphuL1ULKtsgluEep1n31UiH2xeq2y8yrwtqxex2JzoHMruZT53NWXF_1kNd90-OHB4cQJ1d-SYPwUL7gQ-xKxkIz04xR3nm9Rs9PNAylTE_VkbFnjs__pUZgi0lZlrSTPKG5JHOSWFvftLggB38NvV2h1OuZ2SJC3uTh_J_pQowgljD99tYaxKLkxaZcyL0WmnQDKihxw1-rX1fTT7ddyHDS9pHz0l0_XKNB8XT6wJ5rXS1RQDiU3fr=s376-no"
+                    alt="Ghost" />
+            </div>
+            <!-- Jon Arryn -->
+            <div class="item tint dead LA one">
+                <img src="https://lh3.googleusercontent.com/EtFDDVQyvKrDFPRmetaKjfDO9DRcPJ8u8bdc8QYK0n13rvQ0GBLLhHNZhpn4ceTyxO472RRAVL4_PlNeVuMzoebrRia_O3_tBf7N4Xx1cgM42Dk5jr8XBDY9M4yTpXKBzpBGjFkrfkPrC68PlfD6FKisfsa0R9Ua82MHxT9H8d7aRcSgRbiqNXrjFI3SyLO5k3cDxd0ReHZRUPaefx2wUVKM4dtZUrSMQzpWgyZQwWgzltuetqazAjKMTxLJhjvxhXXfa2IemMkMBywjqIeNiUSreb_R0RyNHYy88VXNq7NCEJDfjdOwqXVXSv3mnAQ3GDvOCGeX19-1wNctavZxV0dxbqWSvK0wapt7gYgmYTXCdaMfCj_bShv_X3q7-G_GdiewVgMSd8bL0yft6_ev0LNfaAoKC0yBtixLVMwcRhdWaVjghCm5sPdJaZ5MfGwTPT01T_cb06kK6TWaFsFFOUmKG-2J-6-xFQcdCWCw7wii1iu-okUP6ONCfM_sorzi6SBSNEyjT4kKO3heED3NvUVqlgy5ZnWaE0WAlKpMP389aFcyC_1HWL3JgcdsadrcE5yVeJf9QcD7rtg8g3dvtv2rahbUCUXMgbbv8hGOxB9ol6y5VOZN=w185-h166-no"
+                    alt="Jon Arryn" />
+            </div>
+            <!-- Cercei Lannister -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-baratheon-cersei-800x800@2x.jpg"
+                    alt="Cercei Lannister" />
+            </div>
+            <!-- Jaime Lannister -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-lannister-jaime-800x800.jpg"
+                    alt="Jaime Lannister" />
+            </div>
+            <!-- Maester Luwin -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-luwin-maester-800x800.jpg"
+                    alt="Measter Luwin" />
+            </div>
+            <!-- Lysia Arryn -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-arryn-lysa-800x800@2x.jpg"
+                    alt="Lysia Arryn" />
+            </div>
+            <!-- Joffery Barrathon -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges2-ep1-people-profilepic-baratheon-joffrey-800x800.jpg"
+                    alt="Joffery Barrathon" />
+            </div>
+            <!-- The Hound -->
+            <div class="item alive">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-clegane-sandor-the-hound-800x800@2x.jpg"
+                    alt="The Hound" />
+            </div>
+
+            <!-- Catspaw assissan -->
+            <div class="item tint dead SUM one">
+                <img src="https://vignette.wikia.nocookie.net/gameofthrones/images/1/14/Catspaw.jpg/revision/latest?cb=20160807061648"
+                    alt="Assassin" />
+            </div>
+            <!-- Micah -->
+            <div class="item tint dead TH one">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-micah-800x800@2x.jpg"
+                    alt="Micah" />
+            </div>
+            <!-- Sir Hugh -->
+            <div class="item tint dead TM one">
+                <img src="http://assets.viewers-guide.hbo.com/larges1-ep1-people-profilepic-vale-hugh-of-the-800x800.jpg"
+                    alt="Sir Hugh" />
+            </div>
+
+        </div>
+    </section>
+
+    <section id=" portfolio" class="portfolio section-space-padding">
+        <div class="container">
+            <div id="demo"></div>
+        </div>
+    </section>
+    <!-- Back to Top Start -->
+    <a href="#" class="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <!-- Back to Top End -->
+
+    <!-- All Javascript Plugins -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="app/js/jquery.min.js"></script>
+    <script type="text/javascript" src="app/js/plugin.js"></script>
+    <script type="text/javascript" src="app/js/scripts.js"></script>
+
+    <script type="text/javascript" src="app/js/custom.js"></script>
+    <script type="text/javascript" src="app/js/characters.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0HAKwKinpoFKNGUwRBgkrKhF-sIqFUNA">
+    </script>
+    <script src='https://isotope.metafizzy.co/v1/jquery.isotope.min.js'></script>
+    <!-- Main Javascript File  -->
+
 
 </body>
 
