@@ -114,7 +114,7 @@ li {
 .home-section-background {
     position: relative;
     height: 100%;
-    background: url(../images/bg/banner.jpg) no-repeat center;
+    background: url(../images/banner.jpg) no-repeat center;
     background-size: cover;
     z-index: 1;
 }
