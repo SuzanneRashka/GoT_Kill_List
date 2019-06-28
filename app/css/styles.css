@@ -53,5 +53,9 @@ img {
     padding: 40% 5%;
 }
 
-/* About */
+.lower-header-text {
+    margin: auto;
+    padding: 10%;
+}
 
+/* About */
